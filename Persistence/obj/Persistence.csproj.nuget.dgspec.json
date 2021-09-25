@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sridattapavanchirravuri/Reactivities/Persistence/Persistence.csproj": {}
+  },
+  "projects": {
+    "/Users/sridattapavanchirravuri/Reactivities/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sridattapavanchirravuri/Reactivities/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/sridattapavanchirravuri/Reactivities/Domain/Domain.csproj",
+        "packagesPath": "/Users/sridattapavanchirravuri/.nuget/packages/",
+        "outputPath": "/Users/sridattapavanchirravuri/Reactivities/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sridattapavanchirravuri/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.rxweb-tools.com/nuget/Default/": {},
+          "https://proget.rxweb-tools.com/nuget/Third-Party/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sridattapavanchirravuri/Reactivities/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sridattapavanchirravuri/Reactivities/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/Users/sridattapavanchirravuri/Reactivities/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/sridattapavanchirravuri/.nuget/packages/",
+        "outputPath": "/Users/sridattapavanchirravuri/Reactivities/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sridattapavanchirravuri/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.rxweb-tools.com/nuget/Default/": {},
+          "https://proget.rxweb-tools.com/nuget/Third-Party/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/sridattapavanchirravuri/Reactivities/Domain/Domain.csproj": {
+                "projectPath": "/Users/sridattapavanchirravuri/Reactivities/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
